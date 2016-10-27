@@ -40,4 +40,5 @@
     8. "Agreement of Restrictive Packge" - Oracle Instant Client: You have to accept this or the install will not proceed. :-( Check the "I agreed" checkbox and press "Next".
     9. "Agreement of Restrictive Packge" - SZIP compression library: You have to accept this or the install will not proceed. :-( Check the "I agreed" checkbox and press "Next".
     10. Finally, the install will start. I filed an issue with OSGeo4W about the installs requiring non-free components but nothing ever happened. I should check back on that; IMHO it's a deal-breaker. In any event, the OSGeo4W install will take some time to download and install everything.
+    11. When the install finishes, you'll get this screen. Press "Finish".
 6. Now you have PostgreSQL, PostGIS and OSGeo4W installed. The final step is to connect QGIS to PostGIS so you can manage your data, make maps, etc.
