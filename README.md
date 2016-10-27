@@ -29,4 +29,15 @@
     10. When you get this "raster out of db" question, answer "Yes".
     11. When you get this "Installation Complete" screen, press "Close".
     12. Now you'll get an "Installation Completed" screen from Stack Builder. Press "Finish".
-
+5. Now you have PostgreSQL and PostGIS. The final component of the GIS stack is OSGeo4W (<http://trac.osgeo.org/osgeo4w/>). Like the previous two open source installers, this one is loaded with stop points and you'll be accepting the defaults for most of them.
+    1. For a 32-bit Windows, download <http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86.exe>. For 64-bit Windows, download <http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe>. Double-click the installer to start.
+    2. After authorizing the install, you'll get this screen. Accept the default "Express Desktop Install" and press "Next".
+    3. In the "Choose A Download Site", you will need to highlight the default site with the mouse. Then press "Next".
+    4. In the "Select Packages" sreen, accept the defaults (QGIS, GDAL and GRASS GIS) and press "Next".
+    5. "Warning! Unmet Dependencies Found": make sure the "install these packages" checkbox at the bottom is checked and press "Next".
+    6. "Agreement of Restrictive Packge" - ECW Raster Plugin: You have to accept this or the install will not proceed. :-( Check the "I agreed" checkbox and press "Next".
+    7. "Agreement of Restrictive Packge" - MrSID Raster Plugin: You have to accept this or the install will not proceed. :-( Check the "I agreed" checkbox and press "Next".
+    8. "Agreement of Restrictive Packge" - Oracle Instant Client: You have to accept this or the install will not proceed. :-( Check the "I agreed" checkbox and press "Next".
+    9. "Agreement of Restrictive Packge" - SZIP compression library: You have to accept this or the install will not proceed. :-( Check the "I agreed" checkbox and press "Next".
+    10. Finally, the install will start. I filed an issue with OSGeo4W about the installs requiring non-free components but nothing ever happened. I should check back on that; IMHO it's a deal-breaker. In any event, the OSGeo4W install will take some time to download and install everything.
+6. Now you have PostgreSQL, PostGIS and OSGeo4W installed. The final step is to connect QGIS to PostGIS so you can manage your data, make maps, etc.
