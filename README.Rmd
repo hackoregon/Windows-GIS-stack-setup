@@ -17,7 +17,13 @@ Open source installation on Windows can be frustrating. The developers try their
 ## PostgreSQL
 First, you need to install PostgreSQL. I recommend the EnterpriseDB installer, which includes PostgreSQL administration tools and an installer for PostGIS.
 
-1. Go to <http://www.enterprisedb.com/products-services-training/pgdownload> and download the installer. I'm using the most recent, 9.6.1, on 64-bit Windows.
+1. Go to <http://www.enterprisedb.com/downloads/postgres-postgresql-downloads> and download the installer. ***Make sure you get the 9.5 release; that's what the Database Engineering class is using.***
+
+    Download links:
+    
+    * 64-bit Windows: <http://www.enterprisedb.com/postgresql-955-installers-win64>
+    * 32-bit Windows: <http://www.enterprisedb.com/postgresql-955-installers-win32>
+    * MacOS: <http://www.enterprisedb.com/postgresql-955-installers-osx>
 2. When the download finishes, double-click the downloaded installer. You'll need to authorize the install, then after a few operations you'll get this screen. Press "Next".
 
     ![](Screenshots/2016-10-27 21_40_09-Setup.png)
