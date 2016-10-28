@@ -19,8 +19,8 @@ First, you need to install PostgreSQL. I recommend the EnterpriseDB installer, w
 8. Press "Next" on the "Ready to Install" screen to install PostgreSQL.
 9. When the PostgreSQL install is done, you'll get this screen. If you're not doing any GIS work, just PostgreSQL database work, you can stop here. Otherwise, you'll need to continue and install PostGIS using the Stack Builder.
 
-        To exit now, uncheck the Stack Builder checkbox and press "Finish".
-	To proceed to PostGIS, check the Stack Builder checkbox and press "Finish".
+	* To exit now, uncheck the Stack Builder checkbox and press "Finish".
+	* To proceed to PostGIS, check the Stack Builder checkbox and press "Finish".
 
 ## PostGIS via Stack Builder
 1. This is the first screen you'll get from Stack Builder. Pull down the drop-down and select the PostgreSQL database you just installed. Then press "Next".
@@ -43,6 +43,7 @@ Whether or not you installed PostGIS above, you will need to do this setup. I'll
 
 ## OSGeo4W
 Now you have PostgreSQL and PostGIS. The final component of the GIS stack is OSGeo4W (<http://trac.osgeo.org/osgeo4w/>). Like the previous two open source installers, this one is loaded with stop points and you'll be accepting the defaults for most of them.
+
 1. For a 32-bit Windows, download <http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86.exe>. For 64-bit Windows, download <http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe>. Double-click the installer to start.
 2. After authorizing the install, you'll get this screen. Accept the default "Express Desktop Install" and press "Next".
 3. In the "Choose A Download Site", you will need to highlight the default site with the mouse. Then press "Next".
