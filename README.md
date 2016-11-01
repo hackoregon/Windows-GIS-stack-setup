@@ -56,36 +56,37 @@ The EnterpriseDB installer you just ran added some tools to your menu. Among the
 1.  This is the first screen you'll get from Stack Builder. Pull down the drop-down and select the PostgreSQL database you just installed. Then press "Next".
 
     ![](Screenshots/9.5/2016-10-28%2017_00_45-Stack%20Builder%204.0.0.png)
-2.  You will get a screen with a menu of available add-ons. Expand the "Spatial Extensions" item with the plus sign. Choose 32-bit or 64-bit depending on whether you installed 32-bit or 64-bit PostgreSQL. Then press "Next".
+2.  You will get a screen with a menu of available add-ons. Expand the "Spatial Extensions" item with the plus sign. Choose PostGIS 2.2. Choose 32-bit or 64-bit depending on whether you installed 32-bit or 64-bit PostgreSQL. In my case, it was 64-bit. Then press "Next".
 
-    ![](Screenshots/9.5/2016-10-28%2017_01_20-Stack%20Builder%204.0.0.png)
+    ![](Screenshots/PostGIS2.2/2016-10-31%2018_11_57-Stack%20Builder%204.0.0.png)
 3.  On the review screen, accept the default download location and press "Next". This will download the installer for PostGIS.
 
-    ![](Screenshots/9.5/2016-10-28%2017_01_41-Stack%20Builder%204.0.0.png)
+    ![](Screenshots/PostGIS2.2/2016-10-31%2018_12_17-Stack%20Builder%204.0.0.png)
 4.  When the download is finished, you'll get this screen. Make sure the "Skip Installation" checkbox is ***cleared*** and press "Next". This will start the PostGIS installer.
 
-    ![](Screenshots/9.5/2016-10-28%2017_02_05-Stack%20Builder%204.0.0.png)
+    ![](Screenshots/PostGIS2.2/2016-10-31%2018_12_59-Stack%20Builder%204.0.0.png)
 5.  On this screen, press "I Agree" to accept the license.
 
-    ![](Screenshots/9.5/2016-10-28%2017_02_35-PostGIS%20Bundle%202.3.0%20for%20PostgreSQL%20x64%209.5%20Setup.png)
+    ![](Screenshots/PostGIS2.2/2016-10-31%2018_16_12.png)
 6.  On the "Choose Components" screen, make sure PostGIS is checked and "Create spatial database" is cleared. Then press "Next".
 
-    ![](Screenshots/9.5/2016-10-28%2017_03_03-PostGIS%20Bundle%202.3.0%20for%20PostgreSQL%20x64%209.5%20Setup.png)
+    ![](Screenshots/PostGIS2.2/2016-10-31%2018_16_33.png)
+
 7.  On the "Choose Install Location", accept the default with "Next".
 
-    ![](Screenshots/9.5/2016-10-28%2017_03_20-PostGIS%20Bundle%202.3.0%20for%20PostgreSQL%20x64%209.5%20Setup.png)
+    ![](Screenshots/PostGIS2.2/2016-10-31%2018_16_51.png)
 8.  When you get this "GDAL\_DATA" question, answer "Yes".
 
-    ![](Screenshots/9.5/2016-10-28%2017_03_58-PostGIS%20Bundle%202.3.0%20for%20PostgreSQL%20x64%209.5%20Setup.png)
+    ![](Screenshots/PostGIS2.2/2016-10-31%2018_17_34.png)
 9.  When you get this "raster drivers" question, answer "Yes".
 
-    ![](Screenshots/9.5/2016-10-28%2017_04_50-PostGIS%20Bundle%202.3.0%20for%20PostgreSQL%20x64%209.5%20Setup.png)
+    ![](Screenshots/PostGIS2.2/2016-10-31%2018_24_17.png)
 10. When you get this "raster out of db" question, answer "Yes".
 
-    ![](Screenshots/9.5/2016-10-28%2017_05_07-PostGIS%20Bundle%202.3.0%20for%20PostgreSQL%20x64%209.5%20Setup.png)
+    ![](Screenshots/PostGIS2.2/2016-10-31%2018_24_34.png)
 11. When you get this "Installation Complete" screen, press "Close".
 
-    ![](Screenshots/9.5/2016-10-28%2017_05_30-PostGIS%20Bundle%202.3.0%20for%20PostgreSQL%20x64%209.5%20Setup.png)
+    ![](Screenshots/PostGIS2.2/2016-10-31%2018_18_40.png)
 12. Now you'll get an "Installation Completed" screen from Stack Builder. Press "Finish".
 
     ![](Screenshots/9.5/2016-10-28%2017_06_07-Stack%20Builder%204.0.0.png)
